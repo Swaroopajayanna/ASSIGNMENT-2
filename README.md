@@ -8,5 +8,13 @@ else:
     print(f"{num} is an Odd number.")
 
 
+# Task-2: Program to calculate the sum of integers from 1 to 50
 
-# Task 2: Sum of Integers from 1 to 50 Using a Loop
+total_sum = 0
+
+# Iterate over numbers from 1 to 50
+for number in range(1, 51):
+    total_sum += number
+
+# Display the final sum
+print("The sum of integers from 1 to 50 is:", total_sum)
